@@ -1,19 +1,22 @@
-html {
-  font-family: sans-serif;
+.container {
+  margin-top: 50px;
+  text-align: center;
+  margin-left: 450px;
+  margin-right: 450px;
 }
 
-#app {
-  display: flex;
-  margin: 4rem 1rem;
-  justify-content: center;
+path {
+  stroke: rgb(84, 13, 216);
+  stroke-width: 4px;
+  fill: none;
+}
+.price {
+  text-align: start!important;
+}
+.petrol {
+  margin-bottom: 50px;
+  color: brown;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-#chart {
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
-  padding: 1rem;
-}
 
-
-.bar {
-  fill: #4f009e;
-}
